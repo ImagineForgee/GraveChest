@@ -1,0 +1,8 @@
+name: GraveChest
+version: '0.0.1'
+main: com.github.imagineforgee.graveChest.GraveChest
+api-version: '1.21'
+prefix: [ GraveChest ]
+load: STARTUP
+authors: [ ImagineForgee ]
+description: GraveChest is a simple Paper plugin that creates a chest at the location where a player dies, automatically storing all of their inventory and armor. This prevents item loss and keeps the world clean — like a grave mod, but lightweight and server-friendly.
