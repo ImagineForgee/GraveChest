@@ -1,0 +1,16 @@
+# What type of chest to use
+# Options: auto, single, double
+chest-type: auto
+
+# Should the chest automatically expire (removed after time)?
+expire-time-minutes: 10  # Set to 0 to disable expiration
+
+# Should overflow items be dropped at the chest location?
+drop-overflow-items: true
+
+# Should graves be named using the player's name?
+use-custom-name: true
+
+# Required permission: gravechest.use
+# Set to false to allow all players regardless of permission
+require-permission: true
