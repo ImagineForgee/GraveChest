@@ -9,6 +9,7 @@ public final class GraveChest extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        saveDefaultConfig();
         PlayerDeathListener deathListener = new PlayerDeathListener(this);
         getServer().getPluginManager().registerEvents(deathListener, this);
         getServer().getPluginManager().registerEvents(new PlayerRespawnListener(this, deathListener.getPlayerGraves()), this);
